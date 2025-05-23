@@ -188,7 +188,7 @@ void Chunk::render(Lengine::GLSLProgram& shader) {
 
 
         glActiveTexture(GL_TEXTURE0);
-        glBindTexture(GL_TEXTURE_2D, Lengine::ResourceManager::getTexture("Textures/atlas.png").id);
+        glBindTexture(GL_TEXTURE_2D, Lengine::ResourceManager::getTexture("../Textures/atlas.png").id);
 
         GLuint texturelocation2 = shader.getUnifromLocation("textures");
         glUniform1i(texturelocation2, 0);

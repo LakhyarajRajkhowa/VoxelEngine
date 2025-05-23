@@ -1,37 +1,60 @@
-# ParticleSimulator with SDL2 
+# 🧱 Voxel Engine
 
-A simple 2-D Particle Simulator engine made in C++ using SDL2 for rendering.  
-It uses Verlet integration to simulate realistic particle physics.  
-Gravity can be dynamically adjusted in real time using the keyboard.
+A custom Minecraft-like voxel engine built from scratch using **C++**, **SDL2**, **OpenGL**, and **CMake**.
 
-## Features
+This project was a deep dive into game engine architecture, voxel rendering, performance optimization, and data structures.
 
-- Particle simulation using Verlet integration
-- Interactive gravity control using keyboard:
-  - **W**: Apply upward acceleration (gravity up)
-  - **S**: Apply downward acceleration (gravity down)
-  - **A**: Apply leftward acceleration (gravity left)
-  - **D**: Apply rightward acceleration (gravity right)
-- Real-time 2D rendering with SDL2
-- Modular and extensible C++ code structure
+> ⚠️ This project is no longer under active development, but remains a showcase of the techniques and systems I’ve built and learned.
 
-## Prerequisites
+---
 
-- SDL2 installed (or use provided `lib/` folder)
-- A C++ compiler (e.g. g++, clang, or MSVC)
-- CMake (version 3.10+)
+## 🚀 Features
 
-## Build Instructions (Windows)
+- ✅ Chunk-based world rendering  
+- ✅ **Greedy meshing** for performance-optimized voxel rendering  
+- ✅ **Face culling** to eliminate hidden surfaces  
+- ✅ **Texture atlas** for efficient texture usage  
+- ✅ **Chunk serialization** using binary files  
+- ✅ Custom input handling with SDL2  
+- ✅ Basic camera controls
+
+---
+
+## 🧠 What I Learned
+
+- Advanced **OpenGL** rendering (VBOs, VAOs, shaders)  
+- Efficient memory management and dynamic data handling  
+- Use of **3D arrays**, **unordered maps**, **bitsets**, and **linked lists**  
+- Greedy meshing algorithms  
+- Binary file I/O  
+- Basics of **multithreaded chunk generation**  
+- Using **CMake** to organize and build cross-platform projects
+
+---
+
+## 🔧 Building the Project
+
+### 🛠 Requirements
+
+- C++17 compiler  
+- CMake >= 3.10  
+- SDL2  
+- OpenGL  
+- GLEW or GLAD (depending on your setup)
+
+### 🧪 Build Instructions
 
 ```bash
-git clone https://github.com/LakhyarajRajkhowa/ParticleSimulator.git
-cd ParticleSimulator
-mkdir build
-cd build
+# Clone the repo
+git clone https://github.com/your-username/voxel-engine.git
+cd voxel-engine
+
+# Create build directory and run CMake
+mkdir build && cd build
 cmake ..
+
+# Build the project
 cmake --build .
 
-## Run Instructions (Windows)
-
-- Copy the "run/SDL2.dll" program and paste in the build folder near the .exe program.
-- Run the .exe program
+- Copy all the binaries from /bin folder to the /build folder 
+- Run the VoxelEngine.exe program

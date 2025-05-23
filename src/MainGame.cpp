@@ -49,7 +49,7 @@ void MainGame::initSystems() {
 }
 
 void MainGame::initShaders() {
-	_textureProgram.compileShaders("Shaders/colorShading.vert", "Shaders/colorShading.frag");
+	_textureProgram.compileShaders("../Shaders/colorShading.vert", "../Shaders/colorShading.frag");
 	_textureProgram.linkShaders();
 }
 
