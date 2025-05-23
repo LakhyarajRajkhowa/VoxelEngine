@@ -46,8 +46,8 @@ This project was a deep dive into game engine architecture, voxel rendering, per
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/voxel-engine.git
-cd voxel-engine
+git clone https://github.com/LakhyarajRajkhowa/VoxelEngine
+cd VoxelEngine
 
 # Create build directory and run CMake
 mkdir build && cd build
