@@ -4,7 +4,7 @@ A custom Minecraft-like voxel engine built from scratch using **C++**, **SDL2**,
 
 This project was a deep dive into game engine architecture, voxel rendering, performance optimization, and data structures.
 
-> ⚠️ This project is no longer under active development, but remains a showcase of the techniques and systems I’ve built and learned.
+<img width="1879" height="1007" alt="Image" src="https://github.com/user-attachments/assets/2479e043-fce5-43bc-bca1-93fe837f54ca" />
 
 ---
 
